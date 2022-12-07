@@ -1,8 +1,5 @@
-import * as dotenv from "dotenv";
 import discord from "discord.js";
 import { ChatGPTAPI } from 'chatgpt'
-
-dotenv.config();
 
 const token = "";
 const session = "";
