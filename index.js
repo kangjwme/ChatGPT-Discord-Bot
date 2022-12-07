@@ -19,6 +19,10 @@ client.on("messageCreate", (message) => {
     if (message.channel.id != HERE IS YOUR CHANNE ID) {
         return;
     }
+    //this is bot id, prevent bot reply itself
+    if (message.author.id == HERE IS YOUR BOT ID) {
+        return;
+    }
 
     (async () => {
         const api = new ChatGPTAPI({ sessionToken: session })
