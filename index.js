@@ -15,8 +15,8 @@ const client = new Client({intents});
 client.login(token);
 
 client.on("messageCreate", (message) => {
-    //Example: message.chennel.id != 1049943749238739015
-    if (message.chennel.id != HERE IS YOUR CHANNE ID) {
+    //Example: message.channel.id != 1049943749238739015
+    if (message.channel.id != HERE IS YOUR CHANNE ID) {
         return;
     }
 
