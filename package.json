@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.js"
   },
   "dependencies": {
     "chatgpt": "^1.4.0",
