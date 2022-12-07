@@ -9,3 +9,5 @@
 # Why limit channel
 
 If you want your bot chat in everywhere in your guild, just remove the if condition, but it will cause for 429 maybe ¯\_(ツ)_/¯
+
+> 如果需要中文說明，可前往我的 Blog 查看：https://kangjw.me/4470
